@@ -30,7 +30,9 @@ metadata:
   name: payment-cm
 data:
   CART_HOST: cart-service 
+  CART_PORT: 8080
   USER_HOST: user-service 
+  USER_PORT: 8080
   AMQP_HOST: rabbitmq-dev.roboshop.internal
   AMQP_USER: roboshop 
   AMQP_PASS: roboshop123
